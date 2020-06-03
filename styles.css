@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  font-weight: 200;
+}
+
+.container {
+  max-width: 100vw;
+}
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  padding-right: 5vw;
+}
+
+.navbar h6 {
+  margin: 3vw;
+  color: #fff;
+}
+
+.navlinks {
+  text-decoration: none;
+  font-weight: 200;
+  font-family: "Playfair Display", serif;
+}
+
+.navlinks:hover {
+  color: grey;
+}
+
+.landing-first {
+  background-color: #000;
+  width: 100vw;
+  height: 42.8vw;
+  height: 57vw;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+}
+
+.landing-first:after {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.landing-first-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 8vw;
+  margin-top: 8vw;
+  z-index: 1;
+}
+
+.landing-first-h1 {
+  font-size: 8vw;
+  font-weight: 600;
+  color: #bfa682;
+  font-family: "Playfair Display", serif;
+  opacity: 0;
+}
+
+.fullOpacity {
+  opacity: 1;
+}
+
+.landing-first-para {
+  color: #fff;
+  font-size: 3vw;
+  padding-right: 30vw;
+  margin-top: 2vw;
+  font-weight: 100;
+  opacity: 0;
+}
+
+.beautify1 {
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 0.2;
+  position: absolute;
+  top: -10vw;
+  left: -5vw;
+  width: 25vw;
+  height: 25vw;
+  z-index: 3;
+}
+
+.beautify2 {
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 0.1;
+  position: absolute;
+  bottom: 15vw;
+  right: 50vw;
+  width: 10vw;
+  height: 10vw;
+  z-index: 3;
+}
+
+.timeline-landing {
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  bottom: 5vw;
+  display: flex;
+  align-items: flex-end;
+  z-index: 2;
+}
+
+.tl-dot {
+  width: 5%;
+  height: 5%;
+  background-color: grey;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+.special-dot {
+  background-color: white;
+  opacity: 1;
+}
+
+.landing-first-image {
+  width: 40vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.landing-what {
+  overflow-x: hidden;
+  width: 100vw;
+  padding: 10vw 5vw 10vw 5vw;
+  text-align: center;
+}
+
+.landing-what-h1 {
+  font-weight: 900;
+  font-size: 6vw;
+  font-family: "Playfair display", serif;
+}
+
+.landing-what-para {
+  margin-top: 3vw;
+  font-weight: 300;
+  padding: 0 1vw 3vw 1vw;
+  font-weight: 400;
+}
+
+.landing-what-workflow-div {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(300px, 70vw));
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+  justify-content: center;
+}
+
+.workflow-circle {
+  border: 1px solid #826a48;
+  font-weight: 400;
+  /* Changes here */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+
+.special-card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.workflow-text {
+  padding: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workflow-head {
+  background-color: #e3cfa6;
+  font-weight: 400;
+  padding: 5px;
+  font-family: "Playfair display", serif;
+}
+
+.promote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0dede;
+  width: 100vw;
+  overflow-x: hidden;
+  padding: 5vw;
+}
+
+.promote-head {
+  font-weight: 900;
+  font-size: 5vw;
+  font-family: "Playfair display", serif;
+}
+
+.promote-para {
+  font-weight: 400;
+  margin-top: 3vw;
+}
+
+.reasons {
+  padding: 2vw 5vw 5vw 5vw;
+  font-weight: 300;
+}
+
+.promote-end-head {
+  font-family: "Playfair display", serif;
+  font-weight: 300;
+}
+
+.promote-end-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.promote-end-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #cfb3a4;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.contact {
+  padding: 5vw;
+  text-align: center;
+}
+
+.contact-head {
+  font-size: 6vw;
+  font-family: "Playfair display", serif;
+}
+
+.contact-para {
+  font-weight: 300;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sm-links {
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.8;
+}
+
+.sm-links:hover {
+  color: grey;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: 300;
+}
+
+/* Animations code */
+
+span {
+  opacity: 0;
+  transition: all 1s ease;
+  display: inline-block;
+}
+
+span.fade {
+  opacity: 1;
+}
