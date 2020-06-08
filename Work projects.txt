@@ -1,6 +1,0 @@
-Works that I want to include : 
-
-Card checkout page
-Yellow theme
-Rooftop theme
-JS games in the Up for a game? section
