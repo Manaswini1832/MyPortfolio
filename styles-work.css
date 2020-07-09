@@ -67,23 +67,34 @@ img {
   max-width: 100vw;
   overflow-x: hidden;
 }
-.explore-button {
-  background-color: #fcb642;
+.explore-button-dark,
+.explore-button-light {
   color: #000;
   border-radius: 5px;
   display: inline-block;
   margin: 0 2vw 3vw 2vw;
   padding: 2vw;
+  border: 0.1vw solid #000;
 }
 
-.explore-button:hover {
-  background-color: orange;
+.explore-button-dark:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.explore-button-light:hover {
+  background-color: rgba(32, 32, 32, 0.1);
+}
+
+.container2 .explore-button-dark {
+  color: #fff;
+  border-color: #fff;
 }
 
 .container1,
 .container2,
 .container3,
-.container4 {
+.container4,
+.container5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,32 +106,20 @@ img {
   padding-bottom: 10vw;
 }
 
-.container2 {
-  background-color: #fff;
-}
-
-.btn2 {
-  background-color: #c1a57b;
-}
-
-.btn2:hover {
-  background-color: #d2c6b2;
+.container5 {
+  background-color: #cdcccd;
 }
 
 .container3 {
+  background-color: #fff;
+}
+
+.container2 {
   background-color: #27496d;
   color: #fff;
 }
 
-.btn3 {
-  background-color: #fff;
-}
-
-.btn3:hover {
-  background-color: rgb(222, 238, 243);
-}
-
-.container4 {
+.container1 {
   background-color: #f6eedf;
 }
 
