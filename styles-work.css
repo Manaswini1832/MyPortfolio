@@ -94,7 +94,8 @@ img {
 .container2,
 .container3,
 .container4,
-.container5 {
+.container5,
+.container6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,6 +105,10 @@ img {
   overflow-x: hidden;
   padding-top: 5vw;
   padding-bottom: 10vw;
+}
+
+.container6 {
+  background-color: #78999c;
 }
 
 .container5 {
