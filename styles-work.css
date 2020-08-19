@@ -66,6 +66,7 @@ img {
   align-items: center;
   max-width: 100vw;
   overflow-x: hidden;
+  color: #000;
 }
 .explore-button-dark,
 .explore-button-light {
@@ -185,7 +186,6 @@ footer {
   margin: 10px;
   text-decoration: none;
   color: #000;
-  opacity: 0.8;
 }
 
 .sm-links:hover {

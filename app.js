@@ -49,7 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
     tl.play();
     sessionStorage.setItem("hasMyAnimationPlayed", true);
   } else {
-    console.log("Animation already played");
     document.getElementById("animated-i'm").style.opacity = 1;
     document.getElementById("animated-name").style.opacity = 1;
     document.getElementById("animated-para").style.opacity = 1;
